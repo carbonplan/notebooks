@@ -28,7 +28,7 @@ jobs:
             ${{ runner.os }}-pip-
       - run: |
           python -m pip install -r binder/requirements.txt
-          python -m pip install nbconvert
+          python -m pip install nbconvert git+git://github.com/jhamman/carbonplan-styles.git
           python -m pip list
       - name: Running Tests
         run: |

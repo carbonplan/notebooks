@@ -2,4 +2,3 @@ matplotlib
 numpy
 pandas
 altair
-git+git://github.com/jhamman/carbonplan-styles.git
