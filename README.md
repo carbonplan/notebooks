@@ -3,7 +3,7 @@
 ![CI](https://github.com/carbonplan/notebooks/workflows/CI/badge.svg)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carbonplan/notebooks/master)
 
-This repository includes Jupyter Notebooks and other utilities of for sharing [CarbonPlan's](https://carbonplan.org/) analysis and research.
+This repository includes Jupyter Notebooks and other utilities of for sharing [CarbonPlan's](https://carbonplan.org/) analysis and research. There's not much right now, but we'll be adding a lot here over time, as we develop our models and datasets on carbon removal projects and technologies.
 
 ## About CarbonPlan
 
