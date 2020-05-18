@@ -1,5 +1,5 @@
 matplotlib
-numpy
+numpy==1.15
 pandas
 altair
-pystan
+pystan==2.16
