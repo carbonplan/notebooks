@@ -1,0 +1,9 @@
+name: carbonplan
+channels:
+  - conda-forge
+dependencies:
+  - matplotlib
+  - numpy
+  - pandas
+  - altair
+  - pystan

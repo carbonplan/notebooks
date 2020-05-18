@@ -1,6 +1,0 @@
-matplotlib
-numpy
-pandas
-altair
-pystan
-cython>=0.22
