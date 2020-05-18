@@ -3,3 +3,4 @@ numpy==1.15
 pandas
 altair
 pystan==2.16
+cython>=0.22
