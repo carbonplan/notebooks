@@ -1,6 +1,6 @@
 matplotlib
-numpy==1.15
+numpy
 pandas
 altair
-pystan==2.16
+pystan
 cython>=0.22
