@@ -24,7 +24,7 @@ There's not much here right now! But we'll be adding a lot here over time, as we
 
 ## license
 
-All the code in this repository is MIT licensed.
+All the code in this repository is [MIT](https://choosealicense.com/licenses/mit/) licensed, but we request that you please provide attribution if reusing any of our digital content (graphics, logo, articles, etc.).
 
 ## about us
 
