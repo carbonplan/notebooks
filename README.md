@@ -1,9 +1,26 @@
-# (carbon)plan / notebooks
+<img
+  src='https://carbonplan-assets.s3.amazonaws.com/monogram/dark-small.png'
+  height='48'
+/>
 
-![CI](https://github.com/carbonplan/notebooks/workflows/CI/badge.svg)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carbonplan/notebooks/master)
+# carbonplan / notebooks
+
+**jupyter notebooks of for sharing analysis and research**
+
+[![GitHub][github-badge]][github]
+![Build Status][]
+![dependabot][]
+![MIT License][]
+
+[github]: https://github.com/carbonplan/notebooks
+[github-badge]: https://flat.badgen.net/badge/-/github?icon=github&label
+[build status]: https://flat.badgen.net/github/checks/carbonplan/notebooks
+[dependabot]: https://flat.badgen.net/dependabot/carbonplan/notebooks?icon=dependabot
+[mit license]: https://flat.badgen.net/badge/license/MIT/blue
 
 This repository includes Jupyter notebooks and other utilities for sharing our analysis and research.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carbonplan/notebooks/master)
 
 There's not much here right now! But we'll be adding a lot here over time, as we develop our models and datasets on carbon removal projects and technologies.
 
