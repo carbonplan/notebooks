@@ -9,13 +9,11 @@
 
 [![GitHub][github-badge]][github]
 ![Build Status][]
-![dependabot][]
 ![MIT License][]
 
 [github]: https://github.com/carbonplan/notebooks
 [github-badge]: https://flat.badgen.net/badge/-/github?icon=github&label
 [build status]: https://flat.badgen.net/github/checks/carbonplan/notebooks
-[dependabot]: https://flat.badgen.net/dependabot/carbonplan/notebooks?icon=dependabot
 [mit license]: https://flat.badgen.net/badge/license/MIT/blue
 
 This repository includes Jupyter notebooks and other utilities for sharing our analysis and research.
