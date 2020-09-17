@@ -34,28 +34,28 @@ sources:
         Shapefile (converted to GeoJSON) for the ACR project ACR260.
       tags: [forests]
       type: application/geo+json
+      liceqnse: Public Domain
+      providers:
+        - name: American Carbon Registry
+          description: Nonprofit enterprise of Winrock International
+          url: https://americancarbonregistry.org/
+    driver: geojson
+    args:
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/carb_project_geometry.json'
+
+  arboc_issuance:
+    metadata:
+      title: Project Insurance Database
+      summary: ARBOC project insurance database
+      description: |
+        ARBOC project insurance database
+      tags: [forests]
+      type: application/geo+json
       license: Public Domain
       providers:
         - name:
           description:
           url:
-    driver: geojson
+    driver: csv
     args:
-      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/carb_project_geometry.json'
-#   arboc_issuance:
-#     metadata:
-#       title: Project Insurance Database
-#       summary: ARBOC project insurance database
-#       description: |
-#         ARBOC project insurance database
-#       tags: [forests]
-#       type: application/geo+json
-#       license: Public Domain
-#       providers:
-#         - name:
-#           description:
-#           url:
-#     driver: excel
-#     args:
-#       urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/arboc_issuance.xlsx'
-#       sheet_name: 3
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/arb_offset_credit_issuance.csv'

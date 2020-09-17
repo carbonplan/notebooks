@@ -31,7 +31,7 @@ jobs:
       - shell: bash -l {0}
         name: Running Tests
         run: |
-          for nb in **/*.ipynb; do echo $nb; time jupyter nbconvert --to html $nb; done
+          for nb in **/*.ipynb; do echo $nb; time jupyter nbconvert --to notebook --execute $nb; done
 
   lint:
     runs-on: ubuntu-latest
