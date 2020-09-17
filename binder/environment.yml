@@ -2,6 +2,7 @@ name: carbonplan
 channels:
   - conda-forge
 dependencies:
+  - aiohttp
   - altair
   - fsspec
   - geopandas
@@ -13,6 +14,7 @@ dependencies:
   - pandas
   - pyproj
   - pystan
+  - requests
   - shapely
   - pip
   - pip:
