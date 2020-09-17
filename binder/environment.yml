@@ -12,10 +12,13 @@ dependencies:
   - matplotlib
   - numpy
   - pandas
+  - pydap
   - pyproj
   - pystan
   - requests
+  - seaborn
   - shapely
+  - xarray
   - xlrd
   - pip
   - pip:
