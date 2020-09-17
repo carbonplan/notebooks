@@ -5,7 +5,7 @@
 
 # carbonplan / notebooks
 
-**jupyter notebooks of for sharing analysis and research**
+**jupyter notebooks for sharing analysis and research**
 
 [![GitHub][github-badge]][github]
 ![Build Status][]
@@ -18,7 +18,7 @@
 
 This repository includes Jupyter notebooks and other utilities for sharing our analysis and research.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carbonplan/notebooks/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/carbonplan/notebooks/master?urlpath=lab)
 
 There's not much here right now! But we'll be adding a lot here over time, as we develop our models and datasets on carbon removal projects and technologies.
 
