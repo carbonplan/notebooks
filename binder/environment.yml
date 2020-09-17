@@ -2,8 +2,18 @@ name: carbonplan
 channels:
   - conda-forge
 dependencies:
+  - altair
+  - fsspec
+  - geopandas
+  - hvplot
+  - intake
+  - intake-geopandas
   - matplotlib
   - numpy
   - pandas
-  - altair
+  - pyproj
   - pystan
+  - shapely
+  - pip
+  - pip:
+      - carbonplan[styles,data]

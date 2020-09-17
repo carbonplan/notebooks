@@ -1,0 +1,61 @@
+sources:
+  firms:
+    metadata:
+      title: Lionshead active fires (points)
+      summary: Active fire data points from the FIRMS dataset
+      description: |
+        NASA's Fire Information for Resource Management System (FIRMS) distributes Near Real-Time
+        (NRT) active fire data within 3 hours of satellite observation from NASA's Moderate
+        Resolution Imaging Spectroradiometer (MODIS) aboard the Terra and Aqua satellites and
+        NASA's Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Suomi National Polar
+        orbiting Partnership (Suomi NPP) and NOAA-20 satellites.
+      tags: [forests]
+      type: application/geo+json
+      license: Public Domain
+      providers:
+        - name: Fire Information for Resource Management System (FIRMS)
+          description: FIRMS is part of NASA’s Land, Atmosphere Near real-time Capability for EOS (LANCE).
+          url: https://firms.modaps.eosdis.nasa.gov/
+    parameters:
+      sensor:
+        description: FIRMS Sensor
+        type: str
+        default: noaa
+        allowed: [noaa, suomi, modis]
+    driver: geojson
+    args:
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/beachie_creek_fire_{{sensor}}.geojson'
+
+  project:
+    metadata:
+      title: ACR260 Project Geometry
+      summary: MultiPolygon boundary for ACR project ACR260.
+      description: |
+        Shapefile (converted to GeoJSON) for the ACR project ACR260.
+      tags: [forests]
+      type: application/geo+json
+      license: Public Domain
+      providers:
+        - name:
+          description:
+          url:
+    driver: geojson
+    args:
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/carb_project_geometry.json'
+#   arboc_issuance:
+#     metadata:
+#       title: Project Insurance Database
+#       summary: ARBOC project insurance database
+#       description: |
+#         ARBOC project insurance database
+#       tags: [forests]
+#       type: application/geo+json
+#       license: Public Domain
+#       providers:
+#         - name:
+#           description:
+#           url:
+#     driver: excel
+#     args:
+#       urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/arboc_issuance.xlsx'
+#       sheet_name: 3
