@@ -53,9 +53,9 @@ sources:
       type: application/geo+json
       license: Public Domain
       providers:
-        - name:
-          description:
-          url:
+        - name: California Air Resources Board
+          description: The California Air Resources Board is the "clean air agency" in the government of California.
+          url: https://ww2.arb.ca.gov/
     driver: csv
     args:
       urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/arb_offset_credit_issuance.csv'
