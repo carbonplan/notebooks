@@ -1,4 +1,0 @@
-#!/bin/bash
-
-source activate notebook
-jupyter labextension install --debug -y --minimize False @jupyter-widgets/jupyterlab-manager
