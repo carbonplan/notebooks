@@ -16,6 +16,7 @@ dependencies:
   - pystan
   - requests
   - shapely
+  - xlrd
   - pip
   - pip:
       - carbonplan[styles,data]
