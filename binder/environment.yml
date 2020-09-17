@@ -4,8 +4,10 @@ channels:
 dependencies:
   - aiohttp
   - altair
+  - cartopy
   - fsspec
   - geopandas
+  - geoviews
   - hvplot
   - intake
   - intake-geopandas
