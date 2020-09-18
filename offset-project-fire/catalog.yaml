@@ -24,7 +24,7 @@ sources:
         allowed: [noaa, suomi, modis]
     driver: geojson
     args:
-      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/beachie_creek_fire_{{sensor}}.geojson'
+      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/lionshead-{{sensor}}.json'
 
   project:
     metadata:
