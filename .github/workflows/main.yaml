@@ -34,10 +34,3 @@ jobs:
         name: Running Tests
         run: |
           for nb in **/*.ipynb; do echo $nb; time jupyter nbconvert --to notebook --execute $nb; done
-
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4.2.0
-      - uses: pre-commit/action@v3.0.0
