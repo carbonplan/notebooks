@@ -24,7 +24,7 @@ sources:
         allowed: [noaa, suomi, modis]
     driver: geojson
     args:
-      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/lionshead-{{sensor}}.json'
+      urlpath: 'hhttps://carbonplan-articles.s3.us-west-2.amazonaws.com/offset-project-fire/lionshead-{{sensor}}.json'
 
   project:
     metadata:
@@ -41,7 +41,7 @@ sources:
           url: https://americancarbonregistry.org/
     driver: geojson
     args:
-      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/carb_project_geometry.json'
+      urlpath: 'https://carbonplan-articles.s3.us-west-2.amazonaws.com/offset-project-fire/carb_project_geometry.json'
 
   arboc_issuance:
     metadata:
@@ -58,4 +58,4 @@ sources:
           url: https://ww2.arb.ca.gov/
     driver: csv
     args:
-      urlpath: 'https://carbonplan.blob.core.windows.net/carbonplan-articles/offset-project-fire/arb_offset_credit_issuance.csv'
+      urlpath: 'https://carbonplan-articles.s3.us-west-2.amazonaws.com/offset-project-fire/arb_offset_credit_issuance.csv'
